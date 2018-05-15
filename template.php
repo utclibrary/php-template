@@ -8,7 +8,7 @@ $override_side_menu="NO";
 //in case you need to add anything in the head or footer
 $addhead = "";
 $addfoot = "";
-include ('../includes/head.php');
+include(dirname(__FILE__)."/includes/head.php");
 ?>
 <!-- Insert content here BEGIN -->
 <h1>Template Content</h1>
@@ -17,6 +17,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum 
 </p>
 <img src="//www.utc.edu/library/images/homepage/feature-netadvantage.png"/>
  <!-- Insert content here END -->
-<?php include ('../includes/foot.php'); ?>
+<?php include(dirname(__FILE__)."/includes/foot.php"); ?>
 <!-- add any additional footer code here -->
 	  </html>

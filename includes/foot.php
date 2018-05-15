@@ -55,4 +55,9 @@
 <script type="text/javascript" src="//www.utc.edu/_resources/Kickstrap/apps/zoom/jquery.zoom.js"></script>
 <!-- Document Ready scripts for all pages -->
 <script type="text/javascript" src="//www.utc.edu/_resources/Kickstrap/apps/thememain/main.js"></script>
+<script type="text/javascript">
+if (window.location.href.indexOf("test.utc.edu") > -1) {
+	$("#dev-environment").show();
+};
+</script>
 <?php print $addfoot; ?>

@@ -43,6 +43,9 @@ error_reporting(0);
 .navbar .nav li.dropdown.active > .dropdown-toggle{
   background-color: transparent;
 }
+#dev-environment{
+	display:none;
+}
 		</style>
 		<?php echo $addhead; ?>
 		</head>
@@ -59,6 +62,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5SZRFQ');</script>
 <!-- End Google Tag Manager -->
+<div id="dev-environment" class="alert alert-info" role="alert" style="padding: .25em;text-align: center;margin-bottom: 0px;">
+            | <strong>DEV</strong> environment | </div>
       <div id="skip"><a class="btn btn-success btn-large btn-block" tabindex="1" href="#content">Skip to Main Content</a></div>
       <div id="sf-wrapper">
          <!-- stickyfooter wrapper -->
