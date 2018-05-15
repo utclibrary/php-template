@@ -1,6 +1,6 @@
 <?php
 //template system to replicate main website look and feel
-$title = "w5 template | UTC Library";
+$title = "LibLab template | UTC Library";
 $description = "description goes rychere";
 $keywords = "this, that, the other keywords";
 //do you want to override the folder structure for menu? (default is NO)
